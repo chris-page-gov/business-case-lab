@@ -1,0 +1,7 @@
+Archived: interviewer_prompt.txt
+
+This plaintext copy has been archived. The canonical interviewer prompt is:
+
+prompts/interviewer_prompt.md
+
+Edit that file for future changes.

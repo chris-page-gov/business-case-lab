@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "title": "Meeting transcription & actioning pilot",
+    "sro": "Jane Doe",
+    "sponsoring_org": "Warwickshire CC",
+    "date": "2025-09-04",
+    "version": "v0.1"
+  },
+  "case_level": "BJC",
+  "strategic_case": {
+    "problem_statement": "Manual minutes creation consumes staff time and delays action tracking.",
+    "objectives": [
+      "Reduce post\u2011meeting admin time by 40%",
+      "Improve action capture accuracy to 90%+"
+    ],
+    "strategic_fit": "Aligns with Digital Roadmap and Cabinet decision on AI pilots.",
+    "stakeholders": [
+      "Governance",
+      "ICT",
+      "Directorates A/B"
+    ]
+  },
+  "economic_case": {
+    "options": [
+      "Do nothing",
+      "Adopt AI\u2011assisted transcription with human sign\u2011off"
+    ],
+    "preferred_option": "AI\u2011assisted transcription with human sign\u2011off",
+    "npv": 120000.0,
+    "sensitivity": "Benefits reduce by 30% if adoption is limited to two directorates."
+  },
+  "commercial_case": {
+    "delivery_model": "hybrid",
+    "route_to_market": "CCS framework",
+    "lock_in_mitigations": "Exportable formats, open APIs"
+  },
+  "financial_case": {
+    "capex": 0.0,
+    "opex": 60000.0,
+    "funding_profile": [
+      {
+        "year": 2025,
+        "amount": 30000.0
+      },
+      {
+        "year": 2026,
+        "amount": 30000.0
+      }
+    ],
+    "cashable_benefits": 70000.0,
+    "non_cashable_benefits": "Time savings; better tracking"
+  },
+  "management_case": {
+    "plan": "3 directorates in 12 weeks; weekly metrics; staff training",
+    "governance": "Product owner per directorate; quarterly Cabinet reporting",
+    "assurance": [
+      "Gate 1",
+      "Gate 2"
+    ],
+    "measurement": "Action accuracy; hours saved; pay\u2011back",
+    "dpia_ref": "DPIA-MT-001",
+    "eqia_ref": "EQIA-001",
+    "technical_feasibility": "Pilot tools validated in PoC"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "cases": [
+    {
+      "case_id": "case_001",
+      "valid": true,
+      "errors": [],
+      "has_funding_profile": true
+    }
+  ],
+  "summary": {
+    "count": 1,
+    "valid": 1
+  }
+}

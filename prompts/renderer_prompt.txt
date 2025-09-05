@@ -1,0 +1,7 @@
+Archived: renderer_prompt.txt
+
+This plaintext copy has been archived. The canonical renderer prompt is:
+
+prompts/renderer_prompt.md
+
+Edit that file for future changes.

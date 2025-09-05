@@ -1,0 +1,36 @@
+[project]
+name = "business-case-lab"
+version = "0.1.0"
+description = "Schema-first business case template + prompts + evaluation harness"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "WCC", email = "example@warwickshire.gov.uk"}]
+license = { text = "MIT" }
+dependencies = [
+  "jsonschema>=4.22.0",
+  "typer>=0.12.3",
+  "rich>=13.7.1"
+]
+
+[project.scripts]
+bcl-validate = "bcaselab.cli:bcl_validate"
+bcl-render = "bcaselab.cli:bcl_render"
+bcl-eval = "bcaselab.cli:bcl_eval"
+
+[dependency-groups]
+dev = [
+  "pytest>=8.2",
+  "pytest-cov>=5.0.0",
+  "ruff>=0.5.0",
+  "mypy>=1.10.0"
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+lint.select = ["E","F","I","UP"]
+lint.ignore = ["E203"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+pythonpath = ["src"]
