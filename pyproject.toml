@@ -1,10 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "business-case-lab"
 version = "0.1.0"
 description = "Schema-first business case template + prompts + evaluation harness"
 readme = "README.md"
 requires-python = ">=3.11"
-authors = [{name = "WCC", email = "example@warwickshire.gov.uk"}]
+authors = [{name = "WCC", email = "chrispage@warwickshire.gov.uk"}]
 license = { text = "MIT" }
 dependencies = [
   "jsonschema>=4.22.0",

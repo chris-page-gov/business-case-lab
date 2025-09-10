@@ -42,3 +42,11 @@ out/                        # Rendered drafts
 ```
 
 This is only a starter. Extend the schema, prompts, and evaluator to your needs.
+
+## Notes
+
+This repository now includes a minimal `[build-system]` in `pyproject.toml`, which
+allows `pip install -e .` to work from within the synced `.venv` if you want to
+regenerate the console-scripts in `.venv/bin`.
+
+Recommended: use `uv sync` and the `uv run python -m bcaselab.cli ...` commands above.
